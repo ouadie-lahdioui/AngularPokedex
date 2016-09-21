@@ -1,6 +1,8 @@
-# Pokedex
+# Angular Pokedex
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
+<p align="center">
+	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/images/ngmoroccoPikatch.jpg"> 
+</p>
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
