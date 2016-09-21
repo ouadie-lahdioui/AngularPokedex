@@ -1,7 +1,7 @@
 # Angular Pokedex
 
 <p align="center">
-	<img style="width: 400px" src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/src/images/ngmoroccoPikatch.jpg"> 
+	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/src/images/ngmoroccoPikatch.jpg"> 
 </p>
 
 ## Development server
