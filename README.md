@@ -1,4 +1,4 @@
-# Angular Pokedex
+# Angular 2 Pokedex
 
 <p align="center">
 	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/src/images/ngmoroccoPikatch.jpg"> 

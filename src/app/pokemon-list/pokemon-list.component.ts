@@ -17,8 +17,6 @@ export class PokemonListComponent implements OnInit {
   ngOnInit() {
   }
 
-  title = "Pokemon list";
-
   pokemons:Pokemon[] = this.pokemonService.getAllPokemons(true);
 
   searchPokemon(event: any) {
