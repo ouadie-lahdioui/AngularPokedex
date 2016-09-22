@@ -116,8 +116,8 @@ describe('Service: Pokemon', () => {
         }));
     });
 
-    describe('initializePokemons', () => {
-        it('should return the initialized pokemons', inject([PokemonService], (service:PokemonService) => {
+    describe('loadTestData', () => {
+        it('should load some test data', inject([PokemonService], (service:PokemonService) => {
             // Given
             let bulbasaur = new Pokemon({
                 id: 1,
@@ -142,8 +142,7 @@ describe('Service: Pokemon', () => {
                 type: ['grass', 'poison'],
             });
             // When
-            service.initializePokemons();
-            let pokemons = service.getAllPokemons();
+            let pokemons = service.getAllPokemons(true);
 
             // Then
             expect(pokemons).toEqual([bulbasaur, pidgey]);

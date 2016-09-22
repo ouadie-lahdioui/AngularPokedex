@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Pokemon} from "../models/pokemon";
 import {PokemonService} from "../services/pokemon.service";
 
+
 @Component({
   selector: 'app-pokemon-list',
   templateUrl: './pokemon-list.component.html',
@@ -10,13 +11,14 @@ import {PokemonService} from "../services/pokemon.service";
 })
 export class PokemonListComponent implements OnInit {
 
-  constructor(private pokemonService: PokemonService) {}
+  constructor(private pokemonService:PokemonService) {
+  }
 
   ngOnInit() {
   }
 
   title = "Pokemon list";
 
-  pokemons: Pokemon[] = this.pokemonService.initializePokemons();
+  pokemons:Pokemon[] = this.pokemonService.getAllPokemons(true);
 
 }

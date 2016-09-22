@@ -22,12 +22,14 @@ export class PokemonService {
     }
 
     // Simulate GET /pokemons
-    getAllPokemons(): Pokemon[] {
-        return this.pokemons;
+    getAllPokemons(loadTestData: boolean = false): Pokemon[] {
+      if(loadTestData)
+        this.loadTestData();
+      return this.pokemons;
     }
 
-    // initialize some pokemons to mock the real data
-    initializePokemons(): Pokemon[] {
+    // Load some test pokemons
+    loadTestData() {
         // Given
         let bulbasaur = new Pokemon({
             id: 1,
@@ -53,7 +55,6 @@ export class PokemonService {
         });
         this.addPokemon(bulbasaur);
         this.addPokemon(pidgey);
-        return this.getAllPokemons();
     }
 
 }
