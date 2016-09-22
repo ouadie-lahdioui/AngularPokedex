@@ -12,4 +12,5 @@ export class PokemonListComponent implements OnInit {
   ngOnInit() {
   }
 
+  title = "Pokemon list";
 }
