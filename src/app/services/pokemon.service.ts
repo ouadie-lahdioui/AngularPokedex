@@ -27,7 +27,7 @@ export class PokemonService {
     }
 
     // initialize some pokemons to mock the real data
-    initializePokemons() {
+    initializePokemons(): Pokemon[] {
         // Given
         let bulbasaur = new Pokemon({
             id: 1,
@@ -53,6 +53,7 @@ export class PokemonService {
         });
         this.addPokemon(bulbasaur);
         this.addPokemon(pidgey);
+        return this.getAllPokemons();
     }
 
 }
