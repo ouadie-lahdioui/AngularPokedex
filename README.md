@@ -1,15 +1,12 @@
-# Angular 2 Pokedex
-
 <p align="center">
 	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/src/images/ngmoroccoPikatch.jpg"> 
 </p>
 
+# Yet another Angular 2 Pokedex !
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
 ## Build
 
@@ -19,15 +16,12 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## How will the application look like ?
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
-Before running the tests make sure you are serving the app via `ng serve`.
+<p align="center">
+	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/src/images/AngularPokedex.png"> 
+</p>
 
-## Deploying to Github Pages
+## Contributing
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You need to explore Angular 2 ? You think that i must add a functionality ? Your pull requests are always welcome :bowtie:
