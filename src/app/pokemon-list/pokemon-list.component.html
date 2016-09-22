@@ -2,13 +2,30 @@
     <input [(ngModel)]="title">
     {{title}}
 </p>
-<ul>
-    <li *ngFor="let pokemon of pokemons">
-        {{pokemon.name}}
-    </li>
-</ul>
 
 <md-toolbar color="primary">
-    <md-icon svgSrc="/assets/menu.svg"></md-icon><md-icon></md-icon>
-    My App
+    <md-icon svgSrc="/assets/menu.svg"></md-icon>
+    Pokédex
 </md-toolbar>
+
+<div class="formSearch">
+  <md-input (keyup)="searchPokemon($event)"></md-input>
+</div>
+
+<div class="card-container">
+  <md-card *ngFor="let pokemon of pokemons" class="card">
+    <md-card-header>
+      <img md-card-avatar src="/assets/pokemons/{{pokemon.id}}.png">
+      <md-card-title>{{pokemon.name}}</md-card-title>
+      <md-card-subtitle>{{pokemon.category}}</md-card-subtitle>
+    </md-card-header>
+    <img md-card-image src="/assets/pokemons/{{pokemon.id}}.png">
+    <md-card-content class="pokemonDescription">
+      <p>{{pokemon.description}}</p>
+    </md-card-content>
+    <md-card-actions>
+      <button md-button>LIKE</button>
+      <button md-button>SHARE</button>
+    </md-card-actions>
+  </md-card>
+</div>

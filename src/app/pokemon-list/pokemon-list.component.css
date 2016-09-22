@@ -1,0 +1,12 @@
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.pokemonDescription {
+  max-width: 200px;
+}
+
+.card {
+  margin: 10px;
+}

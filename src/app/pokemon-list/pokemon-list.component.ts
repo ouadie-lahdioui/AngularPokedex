@@ -21,4 +21,11 @@ export class PokemonListComponent implements OnInit {
 
   pokemons:Pokemon[] = this.pokemonService.getAllPokemons(true);
 
+  searchPokemon(event: any) {
+    this.pokemonService.removeAllPokemons();
+    this.pokemons = this.pokemonService.getAllPokemons(true).filter((pokemon) => {
+      return pokemon.name.toLowerCase().indexOf(event.target.value.toLowerCase()) > -1;
+    });
+  }
+
 }
