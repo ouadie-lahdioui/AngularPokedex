@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/src/images/ngmoroccoPikatch.jpg"> 
+	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/src/assets/ngmoroccoPikatch.jpg"> 
 </p>
 
 # Yet another Angular 2 Pokedex !
@@ -19,7 +19,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## How will the application look like ?
 
 <p align="center">
-	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/src/images/AngularPokedex.png"> 
+	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/src/assets/AngularPokedex.png"> 
 </p>
 
 ## Contributing
